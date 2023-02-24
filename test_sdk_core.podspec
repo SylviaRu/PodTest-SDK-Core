@@ -12,7 +12,8 @@ A new go project.
   s.homepage         = 'http://example.com'
   s.license          = { :file => 'LICENSE' }
   s.author           = { 'Your Company' => 'email@example.com' }
-  s.source           = { :path => '.' }
+  # s.source           = { :path => '.' }
+  s.source       = { :git => "https://github.com/SylviaRu/PodTest-SDK-Core.git", :tag => "#{s.version}" }
   # s.dependency 'Flutter'
   s.platform = :ios, '8.0'
 
