@@ -20,7 +20,7 @@ A new go project.
   #s.dependency 'OpenIMSDKCore', :git => 'http://gitlab.ipebg.efoxconn.com/H2104846/juhui_sdk_core.git', :tag => '0.0.1'
   # s.dependency 'OpenIMSDKCore','2.0.9'
   s.static_framework = true
-  s.vendored_frameworks = 'build/JuhuiSDKCore.xcframework/**/*.framework'
+  s.vendored_frameworks = 'build/JuhuiSDKCoreTest.xcframework'
   # s.vendored_frameworks = 'Classes/frameworks/JuhuiSDKCore.framework'
   # Flutter.framework does not contain a i386 slice.
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386 arm64' }

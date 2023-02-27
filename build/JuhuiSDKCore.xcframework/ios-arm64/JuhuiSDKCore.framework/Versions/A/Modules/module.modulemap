@@ -1,9 +1,0 @@
-framework module "JuhuiSDKCore" {
-	header "ref.h"
-    header "Open_im_sdk.objc.h"
-    header "Open_im_sdk_callback.objc.h"
-    header "Universe.objc.h"
-    header "JuhuiSDKCore.h"
-
-    export *
-}
