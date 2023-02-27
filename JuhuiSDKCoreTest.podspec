@@ -3,11 +3,11 @@
 # Run `pod lib lint flutter_openim_sdk.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'test_sdk_core'
+  s.name             = 'JuhuiSDKCoreTest'
   s.version          = '0.0.1'
-  s.summary          = 'A new go project.'
+  s.summary          = 'A Test core.'
   s.description      = <<-DESC
-A new go project.
+A Test core.
                        DESC
   s.homepage         = 'http://example.com'
   s.license          = { :file => 'LICENSE' }
